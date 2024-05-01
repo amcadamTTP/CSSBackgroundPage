@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  width: 50%;
+  height: 200px;
+  border: 2px solid red;
+
+  /* shape size at position */
+  background-image: repeating-radial-gradient(circle closest-side at 10% 50%, red, purple 5%, pink 10%);
+  opacity: 80%;
+}
+
+/* from starting-angle at position */
+body {
+  background-image: conic-gradient(from 100deg at 70% 60%, Bisque 80%, Coral 90%, DarkGoldenRod, DarkGrey);
+}
